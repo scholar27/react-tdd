@@ -1,0 +1,42 @@
+{
+  "name": "react-tdd-exercises",
+  "version": "0.1.0",
+  "description": "React TDD exercises",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "mocha test/.setup.js test/**/*-test.js",
+    "test:watch": "mocha test/.setup.js test/**/*-test.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/applegrain/react-tdd-exercises.git"
+  },
+  "author": "Lovisa Svallingson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/applegrain/react-tdd-exercises/issues"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-airbnb": "^2.0.0",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "css-loader": "^0.23.1",
+    "enzyme": "2.3.0",
+    "jsdom": "^9.4.1",
+    "mocha": "^2.5.3",
+    "react-addons-test-utils": "^15.2.1",
+    "sinon": "^1.17.4",
+    "style-loader": "^0.13.1",
+    "update": "^0.4.2"
+  },
+  "dependencies": {
+    "babel-preset-airbnb": "^2.0.0",
+    "jsdom": "^9.3.0",
+    "react": "^15.1.0",
+    "react-addons-test-utils": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "webpack": "^1.13.1"
+  }
+}
